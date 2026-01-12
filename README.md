@@ -6,18 +6,7 @@ Instead of blindly scraping profiles, the system focuses on purposeful lead disc
 This project is built as a modular, automation-first pipeline using n8n, LLM-based reasoning, and entity-aware data normalization.
 <img width="3485" height="1528" alt="image" src="https://github.com/user-attachments/assets/98d7665e-8c80-4e15-a91c-46308e99d0ec" />
 
-flowchart TD
-    A[Start] --> B[Schedule / Manual Trigger]
-    B --> C[Load Configuration<br/>(Roles, Industries, Keywords)]
-    C --> D[Agentic Lead Discovery<br/>(LLM + Web / Search Sources)]
-    D --> E[Entity Normalization<br/>(Create entity keys)]
-    E --> F[Deduplication<br/>(Check against existing leads)]
-    F --> G[Enrichment & Qualification<br/>(Context, intent, buying signals)]
-    G --> H[Sales Pitch Generation<br/>(Context-rich outreach narrative)]
-    H --> I[Scoring & Ranking<br/>(Relative to existing leads)]
-    I --> J[Output<br/>(Google Sheets / JSON)]
-    J --> K[End]
-
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/1642be98-8c24-465c-b240-d1cc9af5bb9f" />
 
 ## High-Level Workflow
 **1. Trigger & Keyword Generation**
