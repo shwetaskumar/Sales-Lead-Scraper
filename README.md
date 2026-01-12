@@ -4,6 +4,48 @@ Sales Lead Scraper is an agentic B2B prospecting pipeline that automatically dis
 Instead of blindly scraping profiles, the system focuses on purposeful lead discovery: identifying real buyers based on role, company context, and verifiable buying signals. The output is structured, explainable, and directly usable for outbound sales workflows.
 
 This project is built as a modular, automation-first pipeline using n8n, LLM-based reasoning, and entity-aware data normalization.
+<img width="3485" height="1528" alt="image" src="https://github.com/user-attachments/assets/98d7665e-8c80-4e15-a91c-46308e99d0ec" />
+
+Start
+  │
+  ▼
+Schedule / Manual Trigger
+  │
+  ▼
+Load Configuration
+(Roles, Industries, Keywords)
+  │
+  ▼
+Agentic Lead Discovery
+(LLM + Web / Search Sources)
+  │
+  ▼
+Entity Normalization
+(Create entity keys)
+  │
+  ▼
+Deduplication
+(Check against existing leads)
+  │
+  ▼
+Enrichment & Qualification
+(Context, intent, buying signals)
+  │
+  ▼
+Sales Pitch Generation
+(Context-rich outreach narrative)
+  │
+  ▼
+Scoring & Ranking
+(Relative to existing leads)
+  │
+  ▼
+Output
+(Google Sheets / JSON)
+  │
+  ▼
+End
+
 
 ## High-Level Workflow
 **1. Trigger & Keyword Generation**
