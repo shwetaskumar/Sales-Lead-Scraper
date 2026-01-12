@@ -18,6 +18,7 @@ flowchart TD
     I --> J[Output<br/>(Google Sheets / JSON)]
     J --> K[End]
 
+
 ## High-Level Workflow
 **1. Trigger & Keyword Generation**
 - A scheduled or manual trigger initiates the pipeline. The schedule is set to run on the first day of every month.
