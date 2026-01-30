@@ -1,9 +1,13 @@
-# Sales-Lead-Scraper
-Sales Lead Scraper is an agentic B2B prospecting pipeline that automatically discovers, enriches, and qualifies high-intent sales leads from public web sources and LinkedIn-style signals.
+# ATLAS 🌍
+### Agentic Targeting & Lead Acquisition System
+![GitHub License](https://img.shields.io/github/license/shwetaskumar/Sales-Lead-Scraper) ![GitHub Repo stars](https://img.shields.io/github/stars/shwetaskumar/Sales-Lead-Scraper) ![Python](https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white)
+
+ATLAS is an agentic B2B prospecting pipeline that automatically discovers, enriches, and qualifies high-intent sales leads from public web sources and LinkedIn-style signals.
 
 Instead of blindly scraping profiles, the system focuses on purposeful lead discovery: identifying real buyers based on role, company context, and verifiable buying signals. The output is structured, explainable, and directly usable for outbound sales workflows.
 
 This project is built as a modular, automation-first pipeline using n8n, LLM-based reasoning, and entity-aware data normalization.
+
 <img width="3485" height="1528" alt="image" src="https://github.com/user-attachments/assets/98d7665e-8c80-4e15-a91c-46308e99d0ec" />
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/1642be98-8c24-465c-b240-d1cc9af5bb9f" />
